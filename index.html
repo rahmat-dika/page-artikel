@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rahmat Article</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+            <div class="logo">
+                <img src="img/rmt.png" alt="Rahmat Logo">
+            </div>
+            <nav class="nav-list">
+                <ul>
+                    <li>
+                        <a href="#htmlcss">HTML & CSS</a>
+                    </li>
+                    <li>
+                        <a href="#php">PHP</a>
+                    </li>
+                    <li>
+                        <a href="#laravel">Laravel</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="head-back"></div>
+        <div id="content">
+            <img class="hero" src="img/keyboard.jpg" alt="Hero">
+
+            <h1><span class="jdl">Yukk</span> Belajar Ngoding</h2>
+            <ul class="cards">
+                <li class="cards_item" id="htmlcss">
+                    <div class="card">
+                        <img src="img/progammer.jpg" alt="">
+                        <article>
+                            <h3>
+                                Pengertian HTML, Tag, dan CSS
+                            </h3>
+                            <div class="card-text">
+                                <p><span><i class="fas fa-calendar"></i></span> 18 Oktober 2023</p>
+                                <p><span><i class="fas fa-user"></i></span> Rahmat Andyka</p>
+                            </div>
+                            <p class="article-content">
+                                HyperText Markup Language atau HTML adalah bahasa yang digunakan untuk menulis halaman web. 
+                                Dikutip dari buku Aplikasi Internet Menggunakan HTML, CSS, dan JavaScript (2014) oleh Koesheryatin dan Taryana Suryana, HTML merupkaan pengembangan dari standar pemformatan dokumen teks, yaitu Standard Generalized Markup Language (SGML). 
+                                Berikut arti dari tiap-tiap kata HTML, yakni: 
+                                <ul>
+                                    <li>
+                                        Hypertext, sebuah teks yang apabila diklik akan membawa Anda pergi ke satu dokumen ke dokumen lainnya. Hypertext memiliki wujud sebuah link yang bisa mengantar penggunaanya ke dunia internet yang luas. 
+                                    </li>
+                                    <li>
+                                        Markup, tah (semacam kode) yang mengatur layout dan tampian-tampilan visual yang dapat dilihat pada sebuah website, termasuk font, warna teks, gambar, dan lain-lain. 
+                                    </li>
+                                    <li>
+                                        Language, merupakan penunjuk bahwa HTML semacam script pemrogaman. <span id="dots1">. . . . . . .</span>
+                                    </li>
+                                </ul>
+                            </p>
+                            <span id="more1">
+                                <p class="article-content">
+                                    HTML pada dasarnya merupakan ASCII atau teks biasa, yang dirancang untuk tidak tergantung pada suatu sistem operasi tertentu. 
+                                    Peramban internet menerima dokumen HTML dari server web atau penyimpanan lokal dan membuat dokumen menjadi halaman web multimedia. 
+                                    HTML menggambarkan struktur halaman web secara semantik dan isyarat awal yang disertakan untuk penampilan dokumen. 
+                                    Secara umum fungsi HTML adalah untuk mengelola serangkaian data dan informasi sehingga suatu dokumen dapay diakses dan ditampilkan di internet melalui layanan web. 
+                                    Beberapa fungsi HTML, di antaranya: 
+                                    <ul>
+                                        <li>
+                                            Menampilkan berbagai informasi dalam sebuah browser internet
+                                        </li>
+                                        <li>
+                                            Membuat halaman web 
+                                        </li>
+                                        <li>
+                                            Membuat link menuju halaman web lain dengan kode tertentu (hypertext)
+                                        </li>
+                                    </ul>
+                                    </p>
+                                    <p class="article-content">
+                                        Dalam dunia HTML selalu berhubungan dengan tag. Tag adalah teks yang ditulis di antara tanda < dan >.
+                                        Tag ini menentukan bagaimana teks akan tampak di jendela browser, bagaimana tabel akan dibuat, gambar apa yang akan disajikan, dan lain-lain. 
+                                        Penggunaan tag juga berhubungan dengan CSS. CSS arau cascding style sheets yaitu bahasa yang digunakan untuk menentukan tampilan dan format halaman website. Dengan CSS bisa mengatur jenis font, warna tulisan, dan latar belakang halaman. 
+                                        CSS berfungsi mengatasi keterbatasan HTML dalam mengatur format halaman website. Dengan adanya CSS, Anda cukup menulis kode satu kali untuk sebuah elemen HTML dan diterapkan ke semua halaman.
+                                    </p>
+                                    <p class="article-content">
+                                        Dalam melakukan styling web yang sudah dimarkup menggunakan HTML, dapat dilakukan melalyi beberapa cara di antaranya: 
+                                    </p>
+                                    <h5>Internal CSS</h5> 
+                                    <p class="article-content">
+                                        Jika menggunakan internal CSS, maka perlu menggunakan tag style di mana peletakannya dapat berada di dalam head atau pun di dalam body. 
+                                    </p>
+                                    <h5>External CSS</h5> 
+                                    <p class="article-content">
+                                        Lokasi dalam dokumen HTML yang merupakan tempat yang tepat untuk merujuk ke external style sheet adalah di dalam bagian / tag head. 
+                                    </p>
+                                    <p class="article-content">
+                                        Ketika membuat file CSS pada file baru yang disimpan dengan format .css, hal ini membuat style bisa diaplikasikan dalam html. Eksternal CSS harus diimport pada bagian head
+                                        Style sheet eksternal merupakan bagian head untuk menimport style dari CSS maupun CSS Framework agar tampilan web menjadi lebih baik. 
+                                    </p>
+                                </span>
+                            <button onclick="readMore(1)" class="btn" id="myBtn1">Selengkapnya</button>
+                        </article>
+                    </div>
+                </li>
+                
+                <li class="cards_item" id="php">
+                    <div class="card">
+                        <img src="img/php.png" alt="">
+                        <article>
+                            <h3>
+                                Apa Itu PHP? Pengertian PHP untuk Pemula
+                            </h3>
+                            <div class="card-text">
+                                <p><span><i class="fas fa-calendar"></i></span> 20 Oktober 2023</p>
+                                <p><span><i class="fas fa-user"></i></span> Rahmat Andyka</p>
+                            </div>
+                            <p class="article-content">
+                                PHP adalah singkatan dari Hypertext Preprocessor, yaitu bahasa penulisan skrip yang sebenarnya mirip dengan JavaScript dan Python.
+                                Perbedaannya, PHP adalah bahasa yang biasanya digunakan untuk komunikasi sisi server, sedangkan JavaScript bisa digunakan untuk frontend dan backend. Sementara itu, Python hanya untuk sisi server (backend). <span id="dots2">. . . . . . .</span>
+                                </p>
+                                <span id="more2">
+                                    <p class="article-content">
+                                        Masih belum paham dengan pengertian PHP? Tenang, kami akan menjelaskan dasar-dasarnya lebih dulu sebelum Anda mempelajari PHP lebih lanjut. Kami akan mulai dengan membahas apa itu bahasa penulisan skrip atau scripting language.
+                                        Bahasa penulisan skrip adalah bahasa yang mengotomatiskan eksekusi task (tugas) dalam environment runtime khusus. Tugas ini mencakup menginstruksikan halaman statis (dibuat dengan HTML dan CSS) untuk melakukan tindakan tertentu dengan aturan yang sudah ditetapkan. 
+                                    </p>
+                                    <p class="article-content">
+                                        Bahasa penulisan skrip bisa dijalankan di sisi klien (frontend) atau di sisi server (backend).
+                                        Skrip sisi klien diproses oleh web browser. Saat web browser Anda (klien) meminta halaman yang memuat skrip sisi klien, server akan merespons dengan mengirimkan source code (kode sumber) yang bisa dijalankan oleh browser.
+                                        Di sisi lain, bahasa penulisan skrip sisi server berarti skrip dijalankan di server sebelum dikirimkan ke browser. Jadi, bukannya langsung mengirimkan source code, web server akan mengurai (parse) kode lebih dulu dengan mengubahnya menjadi format HTML biasa.
+                                        Oleh karena itu, penulisan skrip sisi server memungkinkan para webmaster menyembunyikan kode sumbernya, sementara skrip sisi klien bisa dilihat dengan mudah oleh user klien.
+                                    </p>
+                                    <p class="article-content">
+                                        Sebenarnya, PHP bukanlah satu-satunya bahasa penulisan skrip sisi server yang tersedia karena ada banyak bahasa lain yang bisa Anda digunakan. Namun, PHP memiliki beberapa keunggulan dibanding pesaingnya, apalagi jika Anda menggunakannya untuk situs WordPress.
+                                        WordPress dibuat menggunakan PHP, sehingga dengan bahasa ini, Anda bisa melakukan penyesuaian dan kustomisasi secara lebih menyeluruh pada situs Anda.
+                                        Misalnya, Anda bisa memanfaatkannya untuk memodifikasi plugin dan tema yang tersedia, atau bahkan untuk membuatnya sendiri. Atau, jika ingin menjadi developer WordPress, Anda akan sangat terbantu dengan mempelajari PHP.
+                                    </p>
+                                    <p class="article-content">
+                                        PHP adalah bahasa penulisan skrip sisi server yang memiliki berbagai kegunaan, tapi yang paling umum adalah untuk membuat konten website yang dinamis.
+                                        Selain itu, PHP sangat populer karena sifatnya yang open-source dan serbaguna. PHP mudah dipelajari oleh user pemula, sementara programer profesional juga bisa memanfaatkannya untuk fitur yang lebih canggih.
+                                        Tentu saja, mempelajari dan memahami PHP akan meningkatkan skill Anda sebagai developer. Dengan menguasai PHP, Anda bisa membuat semua jenis website yang diinginkan, menjadi developer WordPress yang andal, atau bahkan membuat aplikasi web suatu hari nanti. Tidak akan rugi, kok, belajar PHP untuk memanfaatkan berbagai fiturnya yang sangat berguna!
+                                    </p>
+                                </span>
+                            <button onclick="readMore(2)" class="btn" id="myBtn2">Selengkapnya</button>
+                        </article>
+                    </div>
+                </li>
+
+                <li class="cards_item" id="laravel">
+                    <div class="card">
+                        <img src="img/laravel.png" alt="">
+                        <article>
+                            <h3>
+                                Laravel Framework: Pengertian, Keunggulan & Tips untuk Pemula
+                            </h3>
+                            <div class="card-text">
+                                <p><span><i class="fas fa-calendar"></i></span> 19 Oktober 2023</p>
+                                <p><span><i class="fas fa-user"></i></span> Rahmat Andyka</p>
+                            </div>
+                            <p class="article-content">
+                                Pengembangan website akan terasa lebih mudah jika menggunakan tool yang tepat.
+                                Contohnya, framework PHP yang akan digunakan. Pengertian framework yang baik
+                                adalah framework yang sesuai dengan kebutuhan aplikasi web yang akan Anda
+                                bangun. Tidak hanya itu, framework juga harus bisa menyederhanakan proses
+                                pembuatan dan menghasilkan performa yang aplikasi web yang lebih maksimal. Nah!
+                                Salah satu framework yang sangat populer saat ini adalah Laravel. Framework ini
+                                terkenal kesederhanaannya dan menghasilkan aplikasi web yang powerful. Artikel
+                                ini akan membahas soal apa itu Laravel, manfaat Laravel, fitur-fitur Laravel,
+                                hingga tips Laravel untuk pemula. Anda pasti tahu bahasa pemrograman PHP?
+                                Laravel adalah satu-satunya framework yang membantu Anda untuk memaksimalkan
+                                penggunaan PHP di dalam proses pengembangan website. PHP menjadi bahasa
+                                pemrograman yang sangat dinamis, tapi semenjak adanya Laravel, dia menjadi lebih
+                                powerful, cepat, aman, dan simpel. Setiap rilis versi terbaru, misalnya Laravel
+                                9, framework ini selalu memunculkan teknologi baru di antara framework PHP
+                                lainnya. Laravel diluncurkan sejak tahun 2011 dan mengalami pertumbuhan yang
+                                cukup eksponensial. <span id="dots3">. . . . . . .</span>
+                                </p>
+                                <span id="more3">
+                                    <p class="article-content">
+                                    Di tahun 2015, Laravel adalah framework yang paling banyak
+                                    mendapatkan bintang di Github. Sekarang framework ini menjadi salah satu yang
+                                    populer di dunia, tidak terkecuali di Indonesia. Laravel fokus di bagian
+                                    end-user, yang berarti fokus pada kejelasan dan kesederhanaan, baik penulisan
+                                    maupun tampilan, serta menghasilkan fungsionalitas aplikasi web yang bekerja
+                                    sebagaimana mestinya. Hal ini membuat developer maupun perusahaan menggunakan
+                                    framework ini untuk membangun apa pun, mulai dari proyek kecil hingga skala
+                                    perusahaan kelas atas. Laravel mengubah pengembangan website menjadi lebih
+                                    elegan, ekspresif, dan menyenangkan, sesuai dengan jargonnya “The PHP Framework
+                                    For Web Artisans”. Selain itu, Laravel juga mempermudah proses pengembangan
+                                    website dengan bantuan beberapa fitur unggulan, seperti Template Engine,
+                                    Routing, dan Modularity. 
+                                    </p>
+                                    <p class="article-content">
+                                    Laravel menawarkan beberapa keuntungan ketika Anda mengembangkan website atau
+                                    blog laravel menggunakan dasar framework ini: Pertama, website menjadi lebih
+                                    scalable (mudah dikembangkan). Kedua, terdapat namespace dan tampilan yang
+                                    membantu Anda untuk mengorganisir dan mengatur sumber daya website. Ketiga,
+                                    proses pengembangan menjadi lebih cepat sehingga menghemat waktu karena Laravel
+                                    dapat dikombinasikan dengan beberapa komponen dari framework lain untuk
+                                    mengembangkan website. 2 Tools Andalan Laravel Selain itu, ada dua tools Laravel
+                                    yang jarang dimiliki oleh framework lain (kecuali Symphony), yaitu Composer dan
+                                    Artisan. Apa kegunaan masing-masing dari tool tersebut? 1. Composer Composer
+                                    merupakan tool yang di dalamnya terdapat dependencies dan kumpulan library.
+                                    Seluruh dependencies disimpan menggunakan format file composer.json sehingga
+                                    dapat ditempatkan di dalam folder utama website. Inilah mengapa composer
+                                    terkadang dikenal dengan dependencies management. Pertanyaannya lain, apa itu
+                                    dependencies management? Misalnya Anda mempunyai sebuah website yang membutuhkan
+                                    sebuah library. Saya ambil contoh library untuk mengimplementasikan validasi dan
+                                    proteksi untuk spamming, yaitu Google reCaptcha. Tentu saja untuk menyediakan
+                                    Google reCaptcha tidak bisa menggunakan satu library saja, tapi membutuhkan
+                                    beberapa library. Anda tidak mungkin menginstall satu per satu library, kan?
+                                    Nah! Composer membantu Anda untuk menginstall library yang dibutuhkan oleh
+                                    library Google reCaptcha. Jadi jika menggunakan composer Anda tinggal
+                                    menginstall library Google reCaptcha dan secara otomatis library lain akan
+                                    terinstall.
+                                    </p>
+                                </span>
+                            <button onclick="readMore(3)" class="btn" id="myBtn3">Selengkapnya</button>
+                        </article>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <aside>
+            <div class="bio-image">
+                <img src="img/mamat.jpg" alt="Rahmat Andyka">
+            </div>
+            <div class="bio-body">
+                <h3>Rahmat Andyka</h3>
+                <p>20Th/Full Stack Developper</p>
+                <div class="social-media">
+                    <ul>
+                        <li><a href="https://www.instagram.com/rmtdika/"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/rahmat-andyka/"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li><a href="https://twitter.com/mamatologi"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="https://github.com/rahmat-dika/"><i class="fab fa-github"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+    </main>
+
+    <footer>
+        <p>©
+            <script>
+                document.write(new Date().getFullYear());
+            </script>
+            Rahmat Andyka
+        </p>
+    </footer>
+
+    <script>
+        function readMore(index){
+            let dots = document.getElementById("dots" + index);
+            let more = document.getElementById("more" + index);
+            let myBtn = document.getElementById("myBtn" + index);
+
+            if (dots.style.display === "none") {
+                dots.style.display = "inline";
+                myBtn.innerHTML = "Selengkapnya"; 
+                more.style.display = "none";
+            } else {
+                dots.style.display = "none";
+                myBtn.innerHTML = "Sembunyikan"; 
+                more.style.display = "inline";
+            }
+        }
+    </script>
+</body>
+</html>
